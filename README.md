@@ -1,36 +1,36 @@
 # TAXI SERVICE
-**Features**
+**Features** 📄
 - registration
-- log in / log out
+- log in
 - create, update and remove cars/manufacturers/drivers
 - display all cars, drivers and manufacturers
 
-**Project structure**
+**Project structure** 📄
 
-The project has N-Tier Architecture:
-- DAO(data access object) - all work with database at DAO layer(CRUD)
-- Service - all business logic based at service layer
+The project based on N-Tier architecture:
+- DAO layer - work with database
+- Service layer - business logic
 - Controllers - accept requests from the clients and send responses
 
-**Technologies**
+**Technologies** 📡
 - Java
 - JDBC
 - MySQL
 - Tomcat
 - Maven
+- HTML+CSS
 
-**Instruction to run the project**
-1. Fork this repository.
-2. Copy link of project.
-3. Create new project from VCS.
-4. Edit ConnectionUtil.class - set necessary parameters:
+**Instruction to run the project** 📄
+1. Fork this repository
+2. Clone your repository to IDE
+3. Edit ConnectionUtil - set necessary parameters:
 ```diff 
    private static final String URL = "URL";
    private static final String USERNAME = "USER NAME";
    private static final String PASSWORD = "PASSWORD";
    private static final String JDBC_DRIVER = "JDBC DRIVER";
 ```
-5. Create necessary tables in your database using the file init_db.sql.
-6. Install Tomcat.
-7. Configure Tomcat Server in your IDEA.
-8. Run the project.
+4. Create necessary tables in your database using the file init_db.sql
+5. Install Tomcat
+6. Configure Tomcat Server
+7. Run the project
