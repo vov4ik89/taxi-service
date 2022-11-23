@@ -5,7 +5,8 @@
 - create, update and remove cars/manufacturers/drivers
 - display all cars, drivers and manufacturers
 
-**Test Project** 📄
+**Test Project**
+
 https://taxi-service-v-oliinyk.herokuapp.com/login
 
 **Project structure** 📄
