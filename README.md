@@ -5,6 +5,9 @@
 - create, update and remove cars/manufacturers/drivers
 - display all cars, drivers and manufacturers
 
+**Test Project** 📄
+https://taxi-service-v-oliinyk.herokuapp.com/login
+
 **Project structure** 📄
 
 The project based on N-Tier architecture:
