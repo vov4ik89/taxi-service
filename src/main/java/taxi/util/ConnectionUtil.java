@@ -8,7 +8,7 @@ import java.util.Properties;
 public class ConnectionUtil {
     private static final String URL = "jdbc:mysql://sql.freedb.tech:3306/freedb_manufacturers";
     private static final String USERNAME = "freedb_user_vo";
-    private static final String PASSWORD = "$uk&A8rY*N%VB4w";
+    private static final String PASSWORD = "EcAY6rMDPzER4?q";
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
     static {
