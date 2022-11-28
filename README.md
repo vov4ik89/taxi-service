@@ -1,9 +1,9 @@
 # TAXI SERVICE
 **Features** 📄
-- registration
-- log in
-- create, update and remove cars/manufacturers/drivers
-- display all cars, drivers and manufacturers
+- registration page
+- login/logout pages
+- create, update and remove cars/manufacturers/drivers pages
+- display all cars, drivers and manufacturers pages
 
 **Test Project**
 
@@ -23,11 +23,13 @@ The project based on N-Tier architecture:
 - Tomcat
 - Maven
 - HTML+CSS
+- Dependency injection
+- JSP
 
 **Instruction to run the project** 📄
 1. Fork this repository
 2. Clone your repository to IDE
-3. Edit ConnectionUtil - set necessary parameters:
+3. Edit ConnectionUtil - [util/ConnectionUtil.java](https://github.com/vov4ik89/taxi-service/blob/main/src/main/java/taxi/util/ConnectionUtil.java#L9)
 ```diff 
    private static final String URL = "URL";
    private static final String USERNAME = "USER NAME";
@@ -38,3 +40,6 @@ The project based on N-Tier architecture:
 5. Install Tomcat
 6. Configure Tomcat Server
 7. Run the project
+
+
+   ![whole schema_1](UML.jpg)
